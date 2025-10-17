@@ -9,6 +9,7 @@ __pycache__/
 
 # Jupyter / SageMaker artifacts (if any local notebooks)
 .ipynb_checkpoints/
+*.ipynb # Optionally ignore all notebooks if you only want code, otherwise remove this line
 
 # Trained ML models (sensitive/large, don't upload directly)
 *.joblib
