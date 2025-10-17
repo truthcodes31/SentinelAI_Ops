@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter / SageMaker artifacts (if any local notebooks)
+.ipynb_checkpoints/
+
+# Trained ML models (sensitive/large, don't upload directly)
+*.joblib
+*.pkl
+*.h5
+
+# Lambda deployment package
+lambda_package/
+lambda_deployment_package.zip
+
+# Sample data (already on S3, can be large/sensitive)
+data/server_disk_usage_sample.csv
+
+# AWS CLI credentials (CRITICAL - NEVER upload these)
+.aws/
+credentials
+config
+
+# VS Code local settings
+.vscode/
